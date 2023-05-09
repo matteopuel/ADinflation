@@ -7,20 +7,29 @@ Cline, J. M., Puel, M., Toma, T., Affleck-Dine inflation, Phys. Rev. D 101, 0430
 Please cite it (bibtex below) if you use this code.
 
 ## Structure
-The main file is `ADinf.py`
+The main file is **ADinf.py**, which can be run in the usual way:
+```
+python ADinf.py
+```
+All the functions are defined in **myTools.py**. To run the Markov-Chain Monte-Carlo, use:
+```
+python MCMC.py
+```
+The plots are generated in **myPlots.py**.
 
-Bibtex citation:
+
+### Bibtex citation
 @article{Cline:2019fxx,
-    author = "Cline, James M. and Puel, Matteo and Toma, Takashi",
-    title = "{Affleck-Dine inflation}",
-    eprint = "1909.12300",
-    archivePrefix = "arXiv",
-    primaryClass = "hep-ph",
-    doi = "10.1103/PhysRevD.101.043014",
-    journal = "Phys. Rev. D",
-    volume = "101",
-    number = "4",
-    pages = "043014",
-    year = "2020"
+author = "Cline, James M. and Puel, Matteo and Toma, Takashi",
+title = "{Affleck-Dine inflation}",
+eprint = "1909.12300",
+archivePrefix = "arXiv",
+primaryClass = "hep-ph",
+doi = "10.1103/PhysRevD.101.043014",
+journal = "Phys. Rev. D",
+volume = "101",
+number = "4",
+pages = "043014",
+year = "2020"
 }
 
